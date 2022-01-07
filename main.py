@@ -1,6 +1,5 @@
 # TEE PELI TÄHÄN
 import pygame
-import os
 import random as rnd
 import numpy as np
 
@@ -12,8 +11,8 @@ click_values = {    'Menu': 0,          # Initialisoidaan painikkeita varten san
 screen_width = 640  # Peli-ikkunan dimensiot
 screen_height = 480
 
-file_path_prefix = 'src/'   # Textuuritiedostoja varten tiedostopolun alku, tämä tulee muuttaa tyhjäksi,
-                            # jos ohjelma suoritetaan kansiossa src
+file_path_prefix = ''#'src/'    # Tekstuuritiedostoja varten tiedostopolun alku, tämä tulee olla tyhjä,
+                                # jos ohjelma suoritetaan kansiossa
 debug = False   # Debug flag, jos True, pelissä näytetään eräitä debug-ominaisuuksia ja tiettyjä
                 # tietoja tulostetaan komentoriville
 
